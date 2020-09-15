@@ -96,5 +96,17 @@ ellipse (900,70,100,100);
 //kolam 
       fill(#2FD4E8); 
       ellipse(355, 500, 550, 105);
-
+//awan 
+      y=y+0.8; 
+      translate(y-200, height/2-2*size/2); 
+      fill(#FFFFFF); 
+      ellipse (450,-50,70,45); 
+      ellipse (500,-50,85,65); 
+      ellipse (540,-50,70,35); 
+      ellipse (700,-100,80,50); 
+      ellipse (750,-100,95,75); 
+      ellipse (780,-100,80,55); 
+      ellipse (815,-100,75,40); 
+      ellipse (250,-100,80,35); 
+      ellipse (300,-100,80,45);
 }
