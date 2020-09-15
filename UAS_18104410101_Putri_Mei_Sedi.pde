@@ -93,4 +93,7 @@ ellipse (900,70,100,100);
  //air terjun 
       fill (#2FD4E8); 
       rect(300,250,150,200);
+//kolam 
+      fill(#2FD4E8); 
+      ellipse(355, 500, 550, 105);
 }
