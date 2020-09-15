@@ -7,5 +7,9 @@ void draw (){
   int d;
   d=second();
   background(#FAB52B);
-
+  
+//matahari
+noStroke();
+fill(#F7FF27);
+ellipse (900,70,100,100);
 }
