@@ -11,11 +11,7 @@ void draw (){
 //matahari
 noStroke();
 fill(#F7FF27);
-ellipse (900,70,100,100);
-
-//tebing
-      fill(#89837B);
-      rect(0,250,1200,200);
+ellipse(1000,300-4*d,100,100);
 
 //tebing
       fill(#89837B);
