@@ -1,23 +1,13 @@
 float x,y,z;
 float size=50;
+float yoff=0.0;
 void setup(){
   size (1200,600);
 }
-void draw (){
-  int d;
-  d=second();
-  background(255);  
-   noFill();  
-   int r,g,b,  
-   r1=105,g1=5,b1=255,  
-   r2=225,g2=0,b2=100;  
-   for(int i=0;i<=width-1;i++){  
-   r=(r1+(r2-r1)*i/(width-1));  
-   g=(g1+(g2-g1)*i/(width-1));  
-   b=(b1+(b2-b1)*i/(width-1));  
-   stroke(r,0,b);  
-   line(i,height-1,i,i);  
-   line(i,i,width-1,i);}
+void gambar()
+{
+int  d;
+d = second();
   
 //matahari
 noStroke();
