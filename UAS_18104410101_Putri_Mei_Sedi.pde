@@ -96,10 +96,22 @@ ellipse(1000,300-4*d,100,100);
       rect(565,390,10,10);
  //tanah 
       fill(#B97822); 
-      rect(0,400,1200,400); 
- //air terjun 
-      fill (#2FD4E8); 
+      rect(0,400,1200,400);
+//air terjun 
+      fill (3,160,255); 
       rect(300,250,150,200);
+      fill(3,160,255);
+      beginShape();
+      fill(3,160,255);
+      float xoff = 0;
+      for (float x=0; x<=width; x +=10){
+      float y = map(noise(xoff, yoff),0,1,460,410);
+      vertex(x,y);
+      xoff += 0.05;}
+      yoff +=0.01;
+      vertex(width,height);
+      vertex(0,height);
+      endShape(CLOSE);
 //kolam 
       fill(#2FD4E8); 
       ellipse(355, 500, 550, 105);
