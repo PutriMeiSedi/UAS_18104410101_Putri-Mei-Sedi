@@ -114,9 +114,6 @@ ellipse(1000,300-4*d,100,100);
       vertex(width,height);
       vertex(0,height);
       endShape(CLOSE);
-//kolam 
-      fill(#2FD4E8); 
-      ellipse(355, 500, 550, 105);
 //awan 
       y=y+0.8; 
       translate(y-200, height/2-2*size/2); 
